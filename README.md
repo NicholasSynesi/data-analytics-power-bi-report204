@@ -24,8 +24,8 @@ This involved creating the data model. The first step was to create the date tab
 
 ```dax 
 
-//Dates = CALENDAR(DATE(2010,1,1), DATE(2022,31,12))
-
+Dates = CALENDAR(DATE(2010,1,1), DATE(2022,31,12))
+```
 The next step was to build the Star Schema model. Here is the completed model: 
 
 ![Local Image]("C:\Users\msyne\Desktop\Power BI Project\data-analytics-power-bi-report204\star_schema.png")
