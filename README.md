@@ -181,6 +181,14 @@ This was a relatively simple page in comparison to the others. I had to make a m
 
 The next step was to create a stores drillthrough page, so the user can select a store from this map and information about the store can be shown. 
 
+To do this, I created a new page called Stores Drillthrough and set the page type to a Drillthrough. On this page I included some of the key visuals that someone would want to see about the store. The visuals are not anything I haven't discussed before, so I'll simply show the completed page:
+
+![Alt text](images/stores_drillthrough.png)
+
+This gives the user a concise overview for a particular store.
+
+I then added a Tooltip page, so when someone hovers over a store on the map, the stores performance against the target would be shown. This was as simple as making a new page, setting the type to a tooltip, and copying over the profit gauge seen above. 
+
 ## Milestone 9
 
 This just involved fixing the cross-filtering and navigation for each of the pages. Here are each of the changes I made:
