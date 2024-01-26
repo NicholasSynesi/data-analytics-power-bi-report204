@@ -12,5 +12,3 @@ GROUP BY
 ORDER BY 
     revenue DESC
 LIMIT 1;
-
--- So the month with highest revenue in 2022 is August

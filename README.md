@@ -132,7 +132,44 @@ This was the completed page:
 
 I firstly created some gauges to show the current-quarter performance of Orders, Revenue, and Profit against a target, which would be a 10% quarter-on-quarter increase. These were set up in a similar way to the KPIs on the previous page, where all 3 gauges were very similar to each other. 
 
-I included some conditional formatting where the callout value would show as red if the 
+I included some conditional formatting where the callout value would show as red if the target is not yet met. I set up a rule colour section where it would show as red if we are below the maximum value as follows:
+
+![Alt text](images/conditional_formatting.png)
+
+Next was an area chart, which was quite similar to the previous line graphs. The X axis has the start of the quarter, and the Y axis has the total revenue. The legend was the categories. Now we can easily see which categories are making the most revenue over time. 
+
+In a similar fashion to other tables before, I made a top 10 products table, showing:
+
+- Product Description
+- Total Revenue
+- Total Customers
+- Total Orders
+- Profit per Order
+
+Note that the Profit per Order measure was created using the expression
+
+```dax
+Profit per Order = [Total Profit]/[Total Orders]
+```
+
+Next was a scatter graph showing the Orders vs. Profitability. This was set up with:
+
+- X axis was the Profit per Item
+- Y axis was the Total Quantity
+- Values was the product Description
+- Legend was the product Cateogry
+
+Last was the slicer toolbar. This was so the user could specify a country and a product category, and then these would be shown on the visualizations. To do this I needed to create a bookmark. One would be where the toolbar is open, and the categories can be selected, and one where it is closed. 
+
+To change between this, an open and back button would be implemented. Here is the open toolbar, where the slicers for the country and the category have been added:
+
+![Alt text](images/open_slicer.png)
+
+As many product categories as you want can be selected at once, but only one country at a time can be selected, unless the select all choice is selected. Once the back button was pressed, the toolbar would revert.  
+
+The final steps was to add two cards which show which category and country were selected. This was done in a similar way to the other cards, only this time I used a live text box which would identify the current selections. Here is the final page with the toolbar closed:
+
+![Alt text](images/product_detail.png)
 
 ## Milestone 8 - Stores Map
 
