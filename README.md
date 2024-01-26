@@ -2,7 +2,9 @@
 
 The purpose of this project was to build a series of report pages for a retailer to highlight some insights into their business in order to help build their business intelligence. 
 
-In this README, I'll go over how I achieved each milestone
+In this README, I'll go over how I achieved each milestone.
+
+In order to view the file in Power BI, simply download 'project.pbix' from the repo and open in Power BI. 
 
 ## Milestone 1 
 
@@ -208,3 +210,5 @@ This made it so the buttons would be cyan when you hover over them. Then I added
 ![Alt text](images/image-12.png)
 
 ## Milestone 10
+
+Here I had to query the database. I connected to the Postgres database server and got the data. I printed a list of the tables and columns in each table for my reference. Once I had this information, I completed each of the questions. All .sql and .csv files are present in the SQL folder in the repo.
