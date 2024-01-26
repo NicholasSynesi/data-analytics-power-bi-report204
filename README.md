@@ -69,7 +69,7 @@ The geography hierarchy has the levels:
 
 Here I just set up the report by creating the pages and adding an empty navigation sidebar.
 
-## Milestone 5 - Customer Detail Page
+## Milestone 5 - Executive Summary page
 
 I first created the Headline Card Visuals which would contain the number of Unique Customers and the Revenue per Customer. I arranged two rectangles in the top corner, and then put the card visuals on top of them, creating simple yet clear visuals.
 
