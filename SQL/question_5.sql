@@ -14,4 +14,4 @@ GROUP BY
     product_category
 ORDER BY 
     total_profit DESC
-LIMIT 10;
+LIMIT 1;
