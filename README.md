@@ -27,7 +27,7 @@ Dates = CALENDAR(DATE(2010,1,1), DATE(2022,31,12))
 ```
 The next step was to build the Star Schema model. Here is the completed model: 
 
-![Alt text](star_schema.png)
+![Alt text](images/star_schema.png)
 
 Next, I had to create a measures table for the key measures. These were the following:
 
@@ -71,33 +71,33 @@ Here I just set up the report by creating the pages and adding an empty navigati
 
 I first created the Headline Card Visuals which would contain the number of Unique Customers and the Revenue per Customer. I arranged two rectangles in the top corner, and then put the card visuals on top of them, creating simple yet clear visuals.
 
-![Alt text](image.png)
+![Alt text](images/image.png)
 
 The next was to create a donut chart showing the customers per country:
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 And a similar chart showing each category by number of customers
 
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 Next was a line chart which shows how many customers there are over the years. The user is then allowed to change from a yearly view to a monthly view using a drill down. There is also a forecast for the next 10 periods on the line chart, in order to estimate how the customers will change over the next few quarters:
 
-![Alt text](image-3.png) 
+![Alt text](images/image-3.png) 
 
 Next was the top 20 customers table, which shows which customers have contributed most to the revenue for the company. These were the columns I used:
 
-![Alt text](image-4.png)
+![Alt text](images/image-4.png)
 
 I then chose to Sort By < Total Revenue to get the customers by revenue. To only show the top 20 customers, I applied this filter to sort the names by revenue:
 
-![Alt text](image-5.png)
+![Alt text](images/image-5.png)
 
 I added some more card visuals to show the top customer, their total number of orders, and the revenue they have generated. 
 
 Finally, I created a simple date slicer so the user can filter the page year by year. This was the final page:
 
-![Alt text](image-7.png)
+![Alt text](images/image-7.png)
 
 ## Milestone 6 - Customer Detial Page
 
@@ -107,7 +107,7 @@ Also in a similar fashion to before, I created another line chart, but instead o
 
 Next, I created a pair of donut charts, showing the total revenue by the country, and for the store type, and then converted the donut chart from the previous page showing the total customers by category into a bar chart, and added these to the right side:
 
-![Alt text](image-8.png)
+![Alt text](images/image-8.png)
 
 Finally were the KPI visuals. I had to create some new measures: 
 
@@ -126,17 +126,19 @@ I then made 3 similar KPIs to show the changes for this quarter.
 
 This was the completed page:
 
-![Alt text](image-9.png)
+![Alt text](images/image-9.png)
 
 ## Milestone 7 - Product Detail Page
 
-Under construction 
+I firstly created some gauges to show the current-quarter performance of Orders, Revenue, and Profit against a target, which would be a 10% quarter-on-quarter increase. These were set up in a similar way to the KPIs on the previous page, where all 3 gauges were very similar to each other. 
+
+I included some conditional formatting where the callout value would show as red if the 
 
 ## Milestone 8 - Stores Map
 
 This was a relatively simple page in comparison to the others. I had to make a map and add my geography hierarchy to it. I then added the bubble size to ProfitYTD. This made the Profit of each store show up as a relative bubble on the map. I added a simple country slicer above the map so the user could select either one country, or all countries. Here is the page:
 
-![Alt text](image-10.png)
+![Alt text](images/image-10.png)
 
 The next step was to create a stores drillthrough page, so the user can select a store from this map and information about the store can be shown. 
 
@@ -166,6 +168,6 @@ Finally, I had to setup the navigation bar. This was quite simple. I downloaded 
 
 This made it so the buttons would be cyan when you hover over them. Then I added an action to each button where pressing each one would take you to a certain page. Here is what it looks like when you hover over a button:
 
-![Alt text](image-12.png)
+![Alt text](images/image-12.png)
 
 ## Milestone 10
