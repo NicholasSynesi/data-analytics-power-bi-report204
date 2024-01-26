@@ -101,7 +101,7 @@ Finally, I created a simple date slicer so the user can filter the page year by 
 
 ![Alt text](images/image-7.png)
 
-## Milestone 6 - Customer Detial Page
+## Milestone 6 - Customer Detail Page
 
 Firstly, I created some more card visuals for the top left corner, similarly to last time. These displayed some of the measures I created previously. These were the Total Revenue, Total Orders, and Total Orders. 
 
