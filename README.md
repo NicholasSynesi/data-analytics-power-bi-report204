@@ -75,7 +75,7 @@ I first created the Headline Card Visuals which would contain the number of Uniq
 
 ![Alt text](images/image.png)
 
-The next was to create a donut chart showing the customers per country:
+The next step was to create a donut chart showing the customers per country:
 
 ![Alt text](images/image-1.png)
 
@@ -87,7 +87,7 @@ Next was a line chart which shows how many customers there are over the years. T
 
 ![Alt text](images/image-3.png) 
 
-Next was the top 20 customers table, which shows which customers have contributed most to the revenue for the company. These were the columns I used:
+Then was the top 20 customers table, which shows which customers have contributed most to the revenue for the company. These were the columns I used:
 
 ![Alt text](images/image-4.png)
 
